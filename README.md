@@ -1,5 +1,4 @@
 # Aarya Shah - Machine Learning Projects 
-## AIML303 - Machine Learning and Pattern Recognition
 
 This repository contains a collection of my machine learning projects, demonstrating my skills in various techniques including supervised and unsupervised learning, data preprocessing, and model evaluation.
 
@@ -29,3 +28,13 @@ This repository contains a collection of my machine learning projects, demonstra
 
 * **Goal:** The goal of this project is to predict sales based on advertisement budgets using linear regression.
 * **Methodology:** This project utilizes `numpy`, `matplotlib.pyplot`, `seaborn`, `pandas`, `sklearn.model_selection` (`train_test_split`), `sklearn.linear_model` (`LinearRegression`), `sklearn.metrics`), and `sklearn.preprocessing` (`StandardScaler`). The notebook performs exploratory data analysis, noting that the maximum sales amount is significantly larger than the mean, which could indicate a potential area for further analysis.
+
+### **Project 6 - Bike Share Demand Prediction**
+
+* **Goal:** Predict bike share usage (hourly/daily) to understand demand patterns and support resource planning.
+* **Methodology:** The notebook performs exploratory data analysis and feature engineering on datetime and weather-related variables (hour, day, month, temperature, humidity, windspeed). Models include `LinearRegression`, `RandomForestRegressor`, and gradient-boosting approaches (e.g., `XGBoost` or `HistGradientBoostingRegressor`). Libraries used: `pandas`, `numpy`, `matplotlib.pyplot`, `seaborn`, `sklearn.model_selection` (`train_test_split`, `cross_val_score`), `sklearn.preprocessing` (`StandardScaler`), `sklearn.ensemble` (`RandomForestRegressor`, `HistGradientBoostingRegressor`), and `xgboost` (optional). Evaluation metrics include RMSE and MAE.
+
+### **Project 7 - Health Insurance Cost / Prediction**
+
+* **Goal:** Analyze health insurance data to predict insurance charges or propensity to purchase/accept plans, and identify factors influencing costs.
+* **Methodology:** The notebook includes data cleaning, handling categorical variables (`sex`, `smoker`, `region`) via encoding, and feature scaling. Models explored include `LinearRegression`, `RandomForestRegressor`, and `GradientBoostingRegressor` for cost prediction, or classification models when applicable. Libraries used: `pandas`, `numpy`, `seaborn`, `matplotlib.pyplot`, `sklearn.preprocessing` (`OneHotEncoder`, `StandardScaler`), `sklearn.model_selection`, `sklearn.ensemble`, and `sklearn.metrics`.
