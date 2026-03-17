@@ -25,3 +25,4 @@ Below is an overview of the notebooks in this repository.
 | 10          | [SVM Classification](10_SVM_Classification.ipynb)                          | Classification using Support Vector Machines.                   |
 | 11          | [Appliance Energy Prediction](11_Appliance_Energy_Prediction.ipynb)        | Appliance energy consumption prediction (regression).           |
 | 12          | [Breast Cancer Prediction with PCA](12_Breast_Cancer_Prediction_PCA.ipynb) | Breast cancer prediction with dimensionality reduction (PCA).   |
+| 13          | [Clustering on Iris Dataset](13_Clustering_Iris.ipynb)                                | Iris flower clustering using unsupervised learning.             |
